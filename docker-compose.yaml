@@ -1,0 +1,11 @@
+services:
+  musescore_exporter:
+    image: ghcr.io/syndralover/musescore4_exporter:latest
+    volumes:
+      - /dir/to/import:/app/import:ro
+      - /dir/to/export:/app/export
+    environment:
+        # NEEDs to be True ! Not "true" 
+        MS4_PDF: True
+        MS4_MP3: True
+        MS4_MXL: True
