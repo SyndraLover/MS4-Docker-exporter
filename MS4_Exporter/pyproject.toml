@@ -1,0 +1,7 @@
+[project]
+name = "musescore-export"
+version = "0.1.0"
+description = "This batch exports mscz-files with hash comparison"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
